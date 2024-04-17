@@ -2,7 +2,7 @@ ARG ARCH
 ARG VERSION
 ARG VARIANT
 
-FROM scratch:${VERSION}
+FROM hilscherautomation/netfield-app-profinet-tap:${VERSION}
 
 ARG ARCH
 ARG VERSION
